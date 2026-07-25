@@ -33,7 +33,7 @@ body {
 
     box-shadow:0 10px 30px rgba(0,0,0,0.15);
 
-    width:90%;
+    width:85%;
 
     max-width:500px;
 
@@ -145,6 +145,12 @@ button:hover {
 h2 {
 
     animation:pulse 2s infinite;
+
+
+
+    white-space:nowrap;
+
+
 
 }
 
@@ -294,6 +300,16 @@ h2 {
     #countdown {
 
         gap:8px;
+
+    }
+
+}
+
+@media (max-width:500px){
+
+    h2 {
+
+        font-size:22px;
 
     }
 

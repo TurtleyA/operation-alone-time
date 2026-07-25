@@ -18,18 +18,17 @@ body {
 
     font-family:Arial, sans-serif;
 
+    text-align:center;
+
 }
 
 
 .container {
 
-    text-align:center;
-    
+
     display:flex;
 
     justify-content:center;
-
-    align-items:center;
 
     width:100%;
 
@@ -226,3 +225,4 @@ h2 {
     }
 
 }
+

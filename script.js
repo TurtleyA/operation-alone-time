@@ -44,9 +44,25 @@ updateCountdown();
 
 setInterval(updateCountdown,1000);
 
+const messages = [
+    "😏 Can't wait to be aloooone with youuuuu ",
+    "💜 Mission update: final hours countdown has begun",
+    "🐢 Turtle report: Patience levels are low",
+    "✨ Forecast: 100% chance of cuddles",
+    "💌 Official notice: You are very much worth waiting for",
+    "👀 Warning: excessive kissing may occur ",
+    "💗 Countdown status: Almost there...",
+    "🐢 This mission has been approved by the turtles."
+];
+
+
 document.getElementById("secretButton").onclick = function(){
 
+    const randomMessage =
+    messages[Math.floor(Math.random() * messages.length)];
+
+
     document.getElementById("secretMessage").innerHTML =
-    "Can't wait to be aloooone with youuuuu 😏";
+    randomMessage;
 
 };

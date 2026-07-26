@@ -10,7 +10,7 @@ function updateCountdown(){
     if (difference <= 0) {
 
   document.getElementById("countdown").innerHTML =
-'<span class="finished-message">🎉 Get your ass over here 🎉</span>';
+'<span class="finished-message">And now... Kindly... Get your ass over here! 🤓</span>';
 
     document.getElementById("countdown").classList.add("celebrate");
 

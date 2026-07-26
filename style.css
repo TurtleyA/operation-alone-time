@@ -316,6 +316,8 @@ h2::after {
 
     font-size:30px;
 
+     transform:scaleX(-1);
+
     animation:turtleJourney 15s linear infinite;
 
 }
@@ -324,15 +326,15 @@ h2::after {
 @keyframes turtleJourney {
 
     0% {
-        right:-40px;
+        left:-40px;
     }
 
     50% {
-        right:50%;
+        left:50%;
     }
 
     100% {
-        right:110%;
+        left:110%;
     }
 
 }

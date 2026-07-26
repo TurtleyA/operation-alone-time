@@ -306,33 +306,33 @@ h2::after {
 
 }
 
+
+
 .turtle {
 
     position:fixed;
 
-    bottom:20px;
+    bottom:25px;
 
-    right:20px;
+    font-size:30px;
 
-    font-size:35px;
-
-    animation:turtleFloat 3s ease-in-out infinite;
+    animation:turtleJourney 15s linear infinite;
 
 }
 
 
-@keyframes turtleFloat {
+@keyframes turtleJourney {
 
     0% {
-        transform:translateY(0);
+        right:-40px;
     }
 
     50% {
-        transform:translateY(-10px);
+        right:50%;
     }
 
     100% {
-        transform:translateY(0);
+        right:110%;
     }
 
 }

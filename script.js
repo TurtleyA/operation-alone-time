@@ -1,4 +1,4 @@
-const targetDate = new Date(Date.now() + 5000);
+const targetDate = new Date("2026-07-27T12:00:00");
 
 
 function updateCountdown(){

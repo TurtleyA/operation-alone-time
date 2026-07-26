@@ -145,7 +145,13 @@ button:hover {
 
 }
 
+h2::before {
+    content:"❤️ ";
+}
 
+h2::after {
+    content:" ❤️";
+}
 
     h2 {
 

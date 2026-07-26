@@ -38,7 +38,7 @@ body {
 
     background:rgb(218, 195, 234);
 
-    padding:40px;
+    padding:25px;
 
     border-radius:25px;
 
@@ -145,7 +145,7 @@ button:hover {
 
 }
 
-h2 {
+
 
     h2 {
 
@@ -153,18 +153,13 @@ h2 {
 
     white-space:nowrap;
 
-    font-size:24px;
+    font-size:21px;
 
     text-align:center;
 
 
 
 }
-
-
-
-}
-
 
 @keyframes pulse {
 
@@ -173,7 +168,7 @@ h2 {
     }
 
     50% {
-        transform:scale(1.05);
+        transform:scale(1.03);
     }
 
     100% {
@@ -185,9 +180,9 @@ h2 {
 
 @media (max-width:500px){
 
-    h1 {
+    h2 {
 
-        font-size:28px;
+        font-size:22px;
 
     }
 
@@ -216,13 +211,5 @@ h2 {
 
 }
 
-@media (max-width:500px){
 
-    h2 {
-
-        font-size:22px;
-
-    }
-
-}
 

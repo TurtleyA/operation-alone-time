@@ -1,4 +1,4 @@
-const targetDate = new Date("2026-07-27T12:00:00");
+const targetDate = new Date(Date.now() + 5000);
 
 
 function updateCountdown(){
@@ -6,6 +6,25 @@ function updateCountdown(){
     const now = new Date();
 
     const difference = targetDate - now;
+
+    if (difference <= 0) {
+
+  document.getElementById("countdown").innerHTML =
+'<span class="finished-message">🎉 Get your ass over here 🎉</span>';
+
+    document.getElementById("countdown").classList.add("celebrate");
+
+    document.querySelector("h2").innerHTML =
+    "Countdown done";
+
+    document.getElementById("secretButton").innerHTML =
+"💌 Open your mission report";
+
+
+    return;
+
+ 
+}
 
 
     const days = Math.floor(

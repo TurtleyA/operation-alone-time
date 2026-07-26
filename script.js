@@ -46,7 +46,7 @@ setInterval(updateCountdown,1000);
 
 const messages = [
     "😏 Can't wait to be aloooone with youuuuu ",
-    "💜 Mission update: final hours countdown has begun",
+    "💜 Mission update: Final hours countdown has begun",
     "🐢 Turtle report: Patience levels are low",
     "✨ Forecast: 100% chance of cuddles",
     "💌 Official notice: You are very much worth waiting for",

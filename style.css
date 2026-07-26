@@ -1,6 +1,16 @@
 body {
 
-    background:#723183;
+    background:linear-gradient(
+        -45deg,
+        #723183,
+        #a85cc7,
+        #e78fb3,
+        #723183
+    );
+
+    background-size:400% 400%;
+
+    animation:aurora 15s ease infinite;
 
     min-height:100vh;
 
@@ -22,6 +32,21 @@ body {
 
 }
 
+@keyframes aurora {
+
+    0% {
+        background-position:0% 50%;
+    }
+
+    50% {
+        background-position:100% 50%;
+    }
+
+    100% {
+        background-position:0% 50%;
+    }
+
+}
 
 .container {
 
@@ -82,8 +107,33 @@ button {
 
     transition:0.3s;
 
+     animation:wiggle 5s infinite;
+
 }
 
+@keyframes wiggle {
+
+    0%, 90%, 100% {
+        transform:rotate(0deg);
+    }
+
+    92% {
+        transform:rotate(-5deg);
+    }
+
+    94% {
+        transform:rotate(5deg);
+    }
+
+    96% {
+        transform:rotate(-3deg);
+    }
+
+    98% {
+        transform:rotate(3deg);
+    }
+
+}
 
 button:hover {
 
